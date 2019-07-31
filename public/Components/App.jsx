@@ -2,14 +2,14 @@
 import React, { Fragment } from "react";
 
 // Components.
-import Temp from "./Temp";
-import Login from "./Login";
+import Home from "./Home";
+import Footer from "./Footer";
 
 export default function App() {
     return(
         <Fragment>
-            <Temp/>
-            <Login/>
+            <Home/>
+            <Footer/>
         </Fragment>
     );
 }
