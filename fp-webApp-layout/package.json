@@ -1,0 +1,45 @@
+{
+ "name": "final-project-webapp",
+ "version": "1.0.0",
+ "description": "WebApp for Anxiety and information retaining to anxiety.",
+ "main": "index.js",
+ "dependencies": {
+  "@babel/core": "^7.5.5",
+  "@babel/preset-env": "^7.5.5",
+  "@babel/preset-react": "^7.0.0",
+  "babel-loader": "^8.0.6",
+  "express": "^4.17.1",
+  "react": "^16.8.6",
+  "react-dom": "^16.8.6"
+ },
+ "babel": {
+  "presets": [
+   [
+    "@babel/preset-env",
+    {
+     "modules": false
+    }
+   ],
+   "@babel/preset-react"
+  ]
+ },
+ "devDependencies": {
+  "webpack": "^4.38.0",
+  "webpack-cli": "^3.3.6"
+ },
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node .",
+  "prestart": "npx webpack"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/r3d-fan6/final-project-WebApp.git"
+ },
+ "author": "Dylan Etheridge, Ethan Meleah, Retha van der Walt",
+ "license": "ISC",
+ "bugs": {
+  "url": "https://github.com/r3d-fan6/final-project-WebApp/issues"
+ },
+ "homepage": "https://github.com/r3d-fan6/final-project-WebApp#readme"
+}
