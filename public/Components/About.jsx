@@ -23,13 +23,13 @@ export default class About extends React.Component {
                        <img src="https://via.placeholder.com/150x250" /> 
                     </div>
                     <div id="about-article">
-                        <p class="bold-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi impedit quis sapiente voluptas illum ad consequuntur quas consequatur eos, eaque dolore, sequi cumque neque corrupti. Ad blanditiis totam recusandae incidunt!
-                        </p>
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam voluptatem debitis eos illo? Pariatur dolorum libero possimus reiciendis ipsa distinctio cum cumque. Optio saepe ducimus eaque dignissimos veritatis doloribus voluptatibus? </p>
+                        <p class="bold-text">Anxiety is a common and natural feeling that everyone experiences. However, if anxiety is significantly interfering with daily life, then it is important to get help. </p>
+                        
+                        <p>It is completely natural and normal to become anxious when faced with something that is threatening or dangerous, embarrassing or stressful. </p>
 
-                        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, nisi excepturi laudantium modi saepe officiis facilis perferendis eveniet sunt hic impedit laborum fugiat dignissimos nostrum error ex corrupti tempore harum!
-                        </p>
+                        <p>This is usually temporary and we can put it out of our minds and continue with our activities.</p>
+
+                        <p>However, if this anxiety is ongoing, and is interfering with your day to day life, then it is considered to be an anxiety disorder</p>
                     </div>
                 </div>
 
