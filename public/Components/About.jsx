@@ -36,15 +36,39 @@ export default class About extends React.Component {
                         <h2> Commonly Asked Questions </h2>
                         <div class="question" id="q-one">
                             <img src="https://via.placeholder.com/35" />
-                            <h5> How cool is batman? </h5>
+                            <h5> What are the most common types of Anxiety Disorders? </h5>
+                            <div class="answer" id="a-one">
+                                <ul>
+                                    <li>Generalised Anxiety Disorder</li>
+                                    <li>Obsessive-Compulsive Disorder (OCD)</li>
+                                    <li>Panic Disorder</li>
+                                    <li>Post-Traumatic Stress Disorder (PTSD)</li>
+                                    <li>Social Phobia (or Social Anxiety Disorder)</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="question" id="q-two">
                             <img src="https://via.placeholder.com/35" />
-                            <h5> How cool is batman? </h5>
+                            <h5> How are Anxiety Disorders diagnosed? </h5>
+                            <div class="answer" id="a-two">
+                                <p>
+                                    Primary care physicians and psychiatrists diagnose someone as having an anxiety disorder if symptoms occur for six months on more days than not, and significantly interfere with the person’s ability to function at home, work or school.
+                                </p>
+                                <p>
+                                    Doctors perform physical and psychological evaluations to rule out other causes for the symptoms of anxiety. Cardiovascular disease, thyroid problems, menopause, substance abuse and/or drug side effects, such as from steroids, may cause symptoms similar to those of an anxiety disorder.
+                                </p>
+                            </div>
                         </div>
                         <div class="question" id="q-three">
                             <img src="https://via.placeholder.com/35" />
-                            <h5> How cool is batman? </h5>
+                            <h5> What are some common treatments? </h5>
+                            <ul>
+                                <li>Psychotherapy</li>
+                                <li>Cognitive Behavioral Therapy (CBT)</li>
+                                <li>Self-help or Support groups</li>
+                                <li>Stress-Management techniques</li>
+                                <li>Anti-anxiety medications</li>
+                            </ul>
                         </div>
                     </div>
                     
