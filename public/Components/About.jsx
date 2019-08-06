@@ -1,6 +1,10 @@
 // Modules.
 import React from "react";
 
+import Panel_One from "./AboutPanels/Panel_One";
+import Panel_Two from "./AboutPanels/Panel_Two";
+import Panel_Three from "./AboutPanels/Panel_Three";
+
 export default class About extends React.Component {
     constructor(props) {
         super(props)
@@ -9,7 +13,7 @@ export default class About extends React.Component {
 
     render() {
         return(
-            <container>
+            
                 <main style={{marginTop: '64px'}}>
                     <header>
                         <img id="header-menu-icon" src="https://via.placeholder.com/35"/>
@@ -23,7 +27,7 @@ export default class About extends React.Component {
                         <img src="https://via.placeholder.com/150x250" /> 
                         </div>
                         <div id="about-article">
-                            <p class="bold-text">Anxiety is a common and natural feeling that everyone experiences. However, if anxiety is significantly interfering with daily life, then it is important to get help. </p>
+                            <p className="bold-text">Anxiety is a common and natural feeling that everyone experiences. However, if anxiety is significantly interfering with daily life, then it is important to get help. </p>
                             <p>It is completely natural and normal to become anxious when faced with something that is threatening or dangerous, embarrassing or stressful. </p>
                             <p>This is usually temporary and we can put it out of our minds and continue with our activities.</p>
                             <p>However, if this anxiety is ongoing, and is interfering with your day to day life, then it is considered to be an anxiety disorder</p>
@@ -34,8 +38,8 @@ export default class About extends React.Component {
 
                     <div id="about-column-two">
                         <h2> Commonly Asked Questions </h2>
-                        <div class="question" id="q-one">
-                            <img src="https://via.placeholder.com/35" />
+                        <div className="question" id="q-one">
+                            {/* <img src="https://via.placeholder.com/35" />
                             <h5> What are the most common types of Anxiety Disorders? </h5>
                             <div class="answer" id="a-one">
                                 <ul>
@@ -45,10 +49,11 @@ export default class About extends React.Component {
                                     <li>Post-Traumatic Stress Disorder (PTSD)</li>
                                     <li>Social Phobia (or Social Anxiety Disorder)</li>
                                 </ul>
-                            </div>
+                            </div> */}
+                            <Panel_One/>
                         </div>
-                        <div class="question" id="q-two">
-                            <img src="https://via.placeholder.com/35" />
+                        <div className="question" id="q-two">
+                            {/* <img src="https://via.placeholder.com/35" />
                             <h5> How are Anxiety Disorders diagnosed? </h5>
                             <div class="answer" id="a-two">
                                 <p>
@@ -57,10 +62,11 @@ export default class About extends React.Component {
                                 <p>
                                     Doctors perform physical and psychological evaluations to rule out other causes for the symptoms of anxiety. Cardiovascular disease, thyroid problems, menopause, substance abuse and/or drug side effects, such as from steroids, may cause symptoms similar to those of an anxiety disorder.
                                 </p>
-                            </div>
+                            </div> */}
+                            <Panel_Two/>
                         </div>
-                        <div class="question" id="q-three">
-                            <img src="https://via.placeholder.com/35" />
+                        <div className="question" id="q-three">
+                            {/* <img src="https://via.placeholder.com/35" />
                             <h5> What are some common treatments? </h5>
                             <ul>
                                 <li>Psychotherapy</li>
@@ -68,7 +74,8 @@ export default class About extends React.Component {
                                 <li>Self-help or Support groups</li>
                                 <li>Stress-Management techniques</li>
                                 <li>Anti-anxiety medications</li>
-                            </ul>
+                            </ul> */}
+                            <Panel_Three/>
                         </div>
                     </div>
                     
@@ -142,7 +149,7 @@ export default class About extends React.Component {
                         </div>
                     </div>
                 </main>
-            </container>
+           
         )
     }
 }
