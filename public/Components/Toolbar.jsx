@@ -29,6 +29,8 @@ export default class Toolbar extends React.Component {
                                 <a href="/#/Solutions" style={{color: 'white', textDecoration: 'none'}}>Solutions</a></li>
                             <li style={{padding: '0 0.5rem'}}>
                                 <a href="/#/Developers" style={{color: 'white', textDecoration: 'none'}}>Developers</a></li>
+                            <li style={{padding: '0 0.5rem'}}>
+                                <a href="/#/Login" style={{color: 'white', textDecoration: 'none'}}>Login</a></li>
                         </ul>
                     </div>
                 </nav>

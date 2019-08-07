@@ -19,6 +19,9 @@ const sideDrawer = props => (
                 <li style={{margin: '0.5rem 0'}}>
                     <a href="/#/Developers" style={{textDecoration: 'none', fontSize: '1.2rem'}}>Developers</a>
                 </li>
+                <li style={{margin: '0.5rem 0'}}>
+                    <a href="/#/Login" style={{textDecoration: 'none', fontSize: '1.2rem'}}>Login</a>
+                </li>
             </ul>
         </nav>
     </Router>

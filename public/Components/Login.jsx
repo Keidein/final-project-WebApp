@@ -57,14 +57,24 @@ export default class Login extends React.Component {
 
     render() {
         return(
-            <div>
-                <p id="loginError" style={{display: "none"}}>There was a problem with logging in... Please try again.</p>
-                <form onSubmit={this.authenticate}>
-                    <input id="username" placeholder="Username" onChange={this.updateCredentials}></input>
-                    <input id="password" placeholder="Password" type="password" onChange={this.updateCredentials}></input>
-                    <button>Submit</button>
-                </form>
-            </div>
+            <container id="container_login">
+                <main style={{marginTop: '64px'}}>
+                    <header id="login_header">
+                        <h1>Login</h1>
+                    </header>
+
+                    <div id="login_div">
+                        <div id="login_form" >
+                            <p id="loginError" style={{display: "none"}}>There was a problem with logging in... Please try again.</p>
+                                <form onSubmit={this.authenticate}>
+                                    <input id="username" placeholder="Username" onChange={this.updateCredentials}></input>
+                                    <input id="password" placeholder="Password" type="password" onChange={this.updateCredentials}></input>
+                                    <button id="submit_btn">Submit</button>
+                                </form>
+                        </div>
+                    </div>
+                </main>
+            </container>
         )
     }
 }
