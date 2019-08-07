@@ -11,39 +11,36 @@ export default class Home extends React.Component {
 
     render() {
         return(
-            <Fragment>
-                    <div>
-                        <header>
-                            <img src="https://via.placeholder.com/35" /> 
-                            <h4 className="header-menu-title"> ANXIETYNZ </h4>
-                            <h1 className="header-page-title"> What is anxiety? </h1>
-                        </header>
+            <main style={{marginTop: '64px'}}>
+                <div>
+                    <header>
+                        <h4 class="header-menu-title"> ANXIETYNZ </h4>
+                    </header>
 
-                        <div className="home-container">
-                            <div id="feature">
-                            <div id="feature-menu-wrapper">
-                                <img src="https://via.placeholder.com/35" />
-                                <h4> ANXIETYNZ </h4>
-                            </div>
-                            <h1> Ever find you can't stop worrying or feeling afraid? </h1>
-                            </div>
-                        
-                            <div id="home-buttons">
-                                <div id="home-blurb">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                                    </p>
-                                </div>
-                                <div id="home-button-wrapper">
-                                    <button> Anxiety One </button>
-                                    <button> Anxiety Two </button>
-                                    <button> Anxiety Three </button>
-                                    <button> Anxiety Four </button>
-                                </div>
-                            </div>
+                    <div class="home-container">
+                        <div id="feature">
+                        <div id="feature-menu-wrapper">
+                            <img src="https://via.placeholder.com/35" />
                         </div>
+                        <h1> Can't stop worrying or feeling afraid? </h1>
+                        </div>
+                    
+                        <div id="home-buttons">
+                            <div id="home-blurb">
+                                <p>
+                                    If, over a prolonged period of time, you've been contanstly worried, afraid or panicking over things that might happen or even for no reason at all, then you may be experiencing Anxiety.
+                                </p>
+                            </div>
+                            <div id="home-button-wrapper">
+                                <button> <a href="/">Symptoms</a> </button>
+                                <button> <a href="/">Triggers</a> </button>
+                                <button> <a href="/">Types</a> </button>
+                                <button> <a href="/">Seeking Help</a> </button>
+                            </div>
+                        </div>                   
                     </div>
-            </Fragment>
+                </div>
+            </main>
         )
     }
 }
