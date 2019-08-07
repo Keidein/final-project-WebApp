@@ -21,13 +21,13 @@ export default class Toolbar extends React.Component {
                     <div className='toolbar__navigation-items'>
                         <ul style={{listStyle: 'none', margin: '0', padding: '0', display: 'flex'}}>
                             <li style={{padding: '0 0.5rem'}}>
-                                <a href="/" style={{color: 'white', textDecoration: 'none'}}>Home</a></li>
+                                <a href="/#/" style={{color: 'white', textDecoration: 'none'}}>Home</a></li>
                             <li style={{padding: '0 0.5rem'}}>
-                                <a href="/" style={{color: 'white', textDecoration: 'none'}}>About</a></li>
+                                <a href="/#/About" style={{color: 'white', textDecoration: 'none'}}>About</a></li>
                             <li style={{padding: '0 0.5rem'}}>
-                                <a href="/" style={{color: 'white', textDecoration: 'none'}}>Solutions</a></li>
+                                <a href="/#/Solutions" style={{color: 'white', textDecoration: 'none'}}>Solutions</a></li>
                             <li style={{padding: '0 0.5rem'}}>
-                                <a href="/" style={{color: 'white', textDecoration: 'none'}}>Developers</a></li>
+                                <a href="/#/Developers" style={{color: 'white', textDecoration: 'none'}}>Developers</a></li>
                         </ul>
                     </div>
                 </nav>

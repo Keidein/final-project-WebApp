@@ -2,11 +2,11 @@
 import React, { Component } from "react";
 
 // Components.
-import Toolbar from "../Components/Toolbar";
+import Toolbar from "./Toolbar";
 import SideDrawer from "../Javascript/SideDrawer/SideDrawer";
 import Backdrop from "../Javascript/SideDrawer/Backdrop";
 
-class App extends Component {
+class SideToolbar extends Component {
     // NAVIGATION
     state = {
         sideDrawerOpen: false
@@ -46,4 +46,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default SideToolbar;
