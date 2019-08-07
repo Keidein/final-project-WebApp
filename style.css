@@ -339,3 +339,62 @@ DEVELOPER STYLING
 #third-bio {
     background-color: #718093;
 }
+
+
+/* 
+
+
+SOLUTIONS CSS
+
+
+*/
+
+
+
+
+
+
+
+/* 
+
+
+FOOTER CSS
+
+
+*/
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: #2f3640;
+    color: white;
+}
+
+#footer-information {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#footer-information h3 {
+    padding-top: 25px;
+}
+
+#email {
+    margin-top: -2px;
+    color: #7f8fa6;
+}
+
+#footer-icons {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer-icons img {
+    display: inline-block;
+    
+    margin: 20px;
+}
+
