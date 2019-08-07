@@ -202,7 +202,7 @@ FEATURE SCALING
 /* About Column 2 */
 
 #about-column-two {
-    background-color: #f5f6fa;
+    background-color: #dcdde1;
 
     height: 600px;
     width: 50%;
@@ -245,7 +245,8 @@ FEATURE SCALING
 /* Symptoms Area */
 
 #symptoms-area {
-    background-color: darkorange;
+    background-color: #273c75;
+    color: white;
 }
 
 #symptoms-section-1 {
@@ -265,7 +266,12 @@ FEATURE SCALING
     width: 15%;
     margin: 0 auto;
     padding: 30px;
-    list-style-type: circ 
+    list-style-type: none;
+}
+
+#symptoms-section-1 ul li {
+    font-size: 1.3em;
+    padding-top: 5px;
 }
 
 #symptoms-section-2 {
@@ -334,75 +340,61 @@ DEVELOPER STYLING
     background-color: #718093;
 }
 
+
 /* 
 
 
-    LOGIN STYLING
+SOLUTIONS CSS
 
 
 */
 
-#login_div {
-    height: 250px;
-    width: 450px;
-    margin: 0 auto;
-    margin-top: 50px;
 
-    box-shadow: 0 30px 40px rgba(0,0,0,.3);
-    
-}
 
-#login_form {
-    height: 80%;
-    width:100%;
-    background-color: white;
-}
 
-#login_form input {
-    position: relative;
-    left: 30px;
-    top: 35px;
 
-    height: 35px;
-    width: 85%;
-    border: none;
 
-    text-align: center;
 
-    background-color: #F8F8F8;
-    border: 3px solid #F0F0F0;
-    border-radius: 15px;
-}
+/* 
 
-#submit_btn {
-    position: relative;
-    top: 60px;
-    left: 12%;
 
-    background-color: #247BA0;
-    border: 3px solid white;
-    border-radius: 15px;
+FOOTER CSS
 
-    color: white;
-    font-size: 18px;
 
-    padding: 10px 20px;
-}
+*/
 
-#loginError {
-    text-align: center;
-    padding-top: 20px;
-    color: red;
-    margin-bottom: 0;
-}
-
-#container_login {
-    background: white;
-}
-
-#login_header {
+footer {
+    height: 300px;
     width: 100%;
-    height: 200px;
-    background-image: url("images/header-banner.png");
-    background-position: center;
+    background-color: #2f3640;
+    color: white;
 }
+
+#footer-information {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#footer-information h3 {
+    padding-top: 25px;
+}
+
+#email {
+    margin-top: -2px;
+    color: #7f8fa6;
+}
+
+#footer-icons {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer-icons img {
+    display: inline-block;
+    
+    margin: 20px;
+}
+

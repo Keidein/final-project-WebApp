@@ -66,7 +66,7 @@ export default class About extends React.Component {
                     </div>
                     <div id="symptoms-section-2">
                         
-                        <img  src="https://via.placeholder.com/275" />
+                        <img  src="./style/images/anxiety-symptoms.jpg" height="275" width="275" />
                     </div>
                     <div id="symptoms-section-3">
                         <p>
