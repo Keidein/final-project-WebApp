@@ -186,7 +186,7 @@ FEATURE SCALING
 #about-column-one {
     background-color: #f5f6fa;
 
-    height: 600px;
+    height: 100%;
     width: 50%;
     float: left;
 }
@@ -207,10 +207,10 @@ FEATURE SCALING
 
 #about-column-two {
     background-color: #dcdde1;
-
-    height: 600px;
+    height: 100%;
     width: 50%;
     float: left;
+    padding-bottom: 20px;
 }
 
 #about-column-two h2 {
@@ -223,26 +223,29 @@ FEATURE SCALING
     width: 80%;
     margin: 0 auto;
     margin-top: 30px;
-    height: 45px;
+    /* height: 45px; */
 
     text-align: center;
-}
-
-.question img {
-    display: inline-block;
-    position: relative;
-    top: -20px;
-    left: -140px;
 }
 
 .question h5 {
     display: inline-block;
     font-family: Helvetica, sans-serif;
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 1.2em;
+    /* position: relative; */
+    /* top: -27px; */
+}
 
-    position: relative;
-    top: -27px;
+#panel_body  {
+    display: inline-block;
+}
+
+#container_1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #f5f6fa;
 }
 
 

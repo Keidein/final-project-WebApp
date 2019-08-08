@@ -18,34 +18,35 @@ export default class About extends React.Component {
                 <header id="about-header">
                     <h1 class="header-page-title"> What is anxiety? </h1>
                 </header>
-                <div id="about-column-one">
-                    <h2 id="article-title"> Anxiety </h2>
-                    <div id="article-img-wrapper">
-                       <img src="https://via.placeholder.com/250x150" /> 
-                       <img src="https://via.placeholder.com/250x150" /> 
-                    </div>
-                    <div id="about-article">
-                        <p className="bold-text">Anxiety is a common and natural feeling that everyone experiences. However, if anxiety is significantly interfering with daily life, then it is important to get help. </p>
-                            <p>It is completely natural and normal to become anxious when faced with something that is threatening or dangerous, embarrassing or stressful. </p>
-                            <p>This is usually temporary and we can put it out of our minds and continue with our activities.</p>
-                            <p>However, if this anxiety is ongoing, and is interfering with your day to day life, then it is considered to be an anxiety disorder</p>
-                        </div>
-                </div>
 
-                <div id="about-column-two">
-                    <h2> Commonly Asked Questions </h2>
-                    <div class="question" id="q-one">
-                        <img src="./style/images/plus.png" height="30" width="30" />
-                        <Panel_One/>
+                <div id="container_1">
+                    <div id="about-column-one">
+                        <h2 id="article-title"> Anxiety </h2>
+                        <div id="article-img-wrapper">
+                        <img src="https://via.placeholder.com/250x150" /> 
+                        <img src="https://via.placeholder.com/250x150" /> 
+                        </div>
+                        <div id="about-article">
+                            <p className="bold-text">Anxiety is a common and natural feeling that everyone experiences. However, if anxiety is significantly interfering with daily life, then it is important to get help. </p>
+                                <p>It is completely natural and normal to become anxious when faced with something that is threatening or dangerous, embarrassing or stressful. </p>
+                                <p>This is usually temporary and we can put it out of our minds and continue with our activities.</p>
+                                <p>However, if this anxiety is ongoing, and is interfering with your day to day life, then it is considered to be an anxiety disorder</p>
+                            </div>
                     </div>
-                    <div class="question" id="q-two">
-                        <img src="./style/images/plus.png" height="30" width="30" />
-                        <h5> How cool is batman? </h5>
+
+                    <div id="about-column-two">
+                        <h2> Commonly Asked Questions </h2>
+                        <div class="question" id="q-one">
+                            <Panel_One/>
+                        </div>
+                        <div class="question" id="q-two">
+                            <Panel_Two/>
+                        </div>
+                        <div class="question" id="q-three">
+                            <Panel_Three/>
+                        </div>
                     </div>
-                    <div class="question" id="q-three">
-                    <img src="./style/images/plus.png" height="30" width="30" />
-                        <h5> How cool is batman? </h5>
-                    </div>
+
                 </div>
                 
                 <div id="symptoms-area">
