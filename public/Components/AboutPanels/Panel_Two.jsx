@@ -23,15 +23,14 @@ class PanelTwo extends React.Component {
 
     render() {
         return (
-            <main style={{marginTop: '64px'}}>
+            <main>
                 <div className="panels_container">
                     <div className="panels">
                         <div className="panel" id="panel-two">
-                            <div className="panel_heading">
+                            <div className="panel_body">
                                 <h5> How are Anxiety Disorders diagnosed? </h5>
-                            </div>
-                            <div className="panel_body" id="a-two">
-                                <button onClick={(event) => { this.toggleDiv(); this.clicked();}}> 
+                                <button style={{position: 'relative', marginLeft: '10px'}}
+                                onClick={(event) => { this.toggleDiv(); this.clicked();}}> 
                                     {this.state.clicked? '+' : '-'}
                                 </button>
                                     { this.state.show && <Body />}
@@ -47,7 +46,7 @@ class PanelTwo extends React.Component {
 class Body extends React.Component{
     render(){
         return(
-            <div>
+            <div style={{paddingBottom: '20px', paddingLeft: '15px', paddingRight: '15px'}}>
                 <p>
                     Primary care physicians and psychiatrists diagnose someone as having an anxiety disorder if symptoms occur for six months on more days than not, and significantly interfere with the person’s ability to function at home, work or school.
                 </p>

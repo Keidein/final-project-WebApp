@@ -14,7 +14,7 @@ export default class Toolbar extends React.Component {
                     </div>
 
                     <div className='toolbar__logo' style={{marginLeft: '1rem'}}>
-                        <a href="/" style={{color: 'white', textDecoration: 'none', fontSize: '1.5rem'}}>The Logo</a>
+                        <a href="/" style={{color: 'white', textDecoration: 'none', fontSize: '1.5rem'}}>AnxietyNZ</a>
                     </div>
                     
                     <div className='spacer' style={{flex: '1'}}/>
@@ -29,6 +29,8 @@ export default class Toolbar extends React.Component {
                                 <a href="/#/Solutions" style={{color: 'white', textDecoration: 'none'}}>Solutions</a></li>
                             <li style={{padding: '0 0.5rem'}}>
                                 <a href="/#/Developers" style={{color: 'white', textDecoration: 'none'}}>Developers</a></li>
+                            <li style={{padding: '0 0.5rem'}}>
+                                <a href="/#/Login" style={{color: 'white', textDecoration: 'none'}}>Login</a></li>
                         </ul>
                     </div>
                 </nav>
