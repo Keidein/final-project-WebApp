@@ -14,7 +14,7 @@ export default class Toolbar extends React.Component {
                     </div>
 
                     <div className='toolbar__logo' style={{marginLeft: '1rem'}}>
-                        <a href="/" style={{color: 'white', textDecoration: 'none', fontSize: '1.5rem'}}>The Logo</a>
+                        <a href="/" style={{color: 'white', textDecoration: 'none', fontSize: '1.5rem'}}>AnxietyNZ</a>
                     </div>
                     
                     <div className='spacer' style={{flex: '1'}}/>
