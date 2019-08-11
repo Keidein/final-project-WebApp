@@ -24,7 +24,7 @@ export default class About extends React.Component {
                         <h2 id="article-title"> Anxiety </h2>
                         <div id="article-img-wrapper">
                         <img src="Style/images/about-image-one.jpg"/> 
-                        <img src="https://via.placeholder.com/250x150" /> 
+                        <img src="Style/images/anxiety-disorder-symptoms-signs.jpg" /> 
                         </div>
                         <div id="about-article">
                             <p className="bold-text">Anxiety is a common and natural feeling that everyone experiences. However, if anxiety is significantly interfering with daily life, then it is important to get help. </p>

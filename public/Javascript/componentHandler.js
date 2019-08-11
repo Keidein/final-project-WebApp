@@ -4,6 +4,7 @@ import Home from "../Components/Home";
 import About from "../Components/About";
 import Solutions from "../Components/Solutions";
 import Developers from "../Components/Developers";
+import Login from "../Components/Login";
 import ContentCycle from "../Components/ContentCycle";
 
 export const Handler = (componentText) => {
@@ -12,7 +13,8 @@ export const Handler = (componentText) => {
         <Home/>,
         <About/>,
         <Solutions/>,
-        <Developers/>
+        <Developers/>,
+        <Login/>
     ]
     
 

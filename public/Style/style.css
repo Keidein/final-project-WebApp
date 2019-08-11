@@ -53,6 +53,10 @@ header h1 {
     padding: 40px;
 }
 
+.login-header {
+    height: 300px;
+}
+
 /* 
 
 
@@ -187,6 +191,8 @@ FEATURE SCALING
 
 #about-column-one img {
     margin-left: 60px;
+    height: 150px;
+    width: 250px;
 }
 
 /* About Column 2 */
@@ -424,6 +430,7 @@ SOLUTIONS CSS
     width: 75%;
 
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .solution-inner h2 {
@@ -457,7 +464,7 @@ SOLUTIONS CSS
 
 .solution-article-triggers {
     width: 100%;
-    height: 350px;
+    height: 430px;
     float: left;
     background-color: #40739e;
     text-align: center;

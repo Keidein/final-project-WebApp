@@ -19,15 +19,15 @@ export default class Home extends React.Component {
                     <div id="home-buttons">
                         <div id="home-blurb">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                                We provide education and support for anxiety disorders
                             </p>
                         </div>
-                        <div id="home-button-wrapper">
+                        {/* <div id="home-button-wrapper">
                             <button> Anxiety One </button>
                             <button> Anxiety Two </button>
                             <button> Anxiety Three </button>
                             <button> Anxiety Four </button>
-                        </div>
+                        </div> */}
                      </div>                   
                 </div>
             </container>

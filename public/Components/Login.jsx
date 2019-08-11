@@ -57,10 +57,10 @@ export default class Login extends React.Component {
 
     render() {
         return(
-            <container id="container_login">
-            <main style={{marginTop: '64px'}}>
-                <header id="login_header">
-                    <h1>Login</h1>
+
+            <div class="container">
+                <header class="login-header">
+                    <h1 class="header-page-title"> Login </h1>
                 </header>
 
                 <div id="login_div">
@@ -73,8 +73,8 @@ export default class Login extends React.Component {
                             </form>
                     </div>
                 </div>
-            </main>
-        </container>
+            </div>
+
         )
     }
 }
