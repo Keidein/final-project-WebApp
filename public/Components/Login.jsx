@@ -12,9 +12,6 @@ export default class Login extends React.Component {
                 "user3": "pass3",
                 "user4": "pass4"
             }],
-            passwords: [
-                
-            ],
             username: null,
             password: null,
             usernameCheck: false,
@@ -30,23 +27,23 @@ export default class Login extends React.Component {
         e.preventDefault();
 
         if (this.state.username < 5 || !(this.state.username in this.state.data[0])) {
-            this.setState({ "usernameCheck": false });
+            this.state.usernameCheck = true;
             document.getElementById("loginError").style.display = "block";
         } else {
-            this.setState({ "usernameCheck": true });
+            this.state.usernameCheck = true;
             document.getElementById("loginError").style.display = "none";
         }
 
         if (this.state.password < 5 || this.state.password != this.state.data[0][this.state.username]) {
-            this.setState({ "passwordCheck": false });
+            this.state.passwordCheck = false;
             document.getElementById("loginError").style.display = "block";
         } else {
-            this.setState({ "passwordCheck": true });
+            this.state.passwordCheck = true;
             document.getElementById("loginError").style.display = "none";
         }
 
         if (this.state.usernameCheck && this.state.passwordCheck) {
-            location.href = "#";
+            location.href = "/";
         }
     }
 
