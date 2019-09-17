@@ -23,15 +23,14 @@ class PanelOne extends React.Component {
 
     render() {
         return (
-            <main style={{marginTop: '64px'}}>
+            <main>
                 <div className="panels_container">
                     <div className="panels">
                         <div className="panel" id="panel-one">
-                            <div className="panel_heading">
+                            <div className="panel_body">
                                 <h5> What are the most common types of Anxiety Disorders? </h5>
-                            </div>
-                            <div className="panel_body" id="a-one">
-                                <button onClick={(event) => { this.toggleDiv(); this.clicked();}}> 
+                                <button style={{position: 'relative', marginLeft: '10px', fontSize: '18px', fontWeight: 'bold'}}
+                                className="question_btn" onClick={(event) => { this.toggleDiv(); this.clicked();}}> 
                                     {this.state.clicked? '+' : '-'}
                                 </button>
                                     { this.state.show && <Body />}
@@ -47,7 +46,7 @@ class PanelOne extends React.Component {
 class Body extends React.Component{
     render(){
         return(
-            <div>
+            <div style={{paddingBottom: '20px'}}>
                 <ul>
                     <li>Generalised Anxiety Disorder</li>
                     <li>Obsessive-Compulsive Disorder (OCD)</li>
@@ -56,7 +55,6 @@ class Body extends React.Component{
                     <li>Social Phobia (or Social Anxiety Disorder)</li>
                 </ul>
             </div>
-            
         )
     }
 }

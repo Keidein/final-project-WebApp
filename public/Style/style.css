@@ -1,0 +1,642 @@
+.container {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+container {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+
+    height: 100%;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-image: url("images/header-banner-2.png");
+}
+
+header img {
+    position: relative;
+    top: 8px;
+    left: 18px;
+}
+
+header h4 {   
+    position: relative;
+    top: -43px;
+    left: 70px;
+}
+
+header h1 {
+    background-color: rgba(31,31,31,0.8);
+    width: 250px;
+    text-align: center;
+    
+    color: white;
+    padding: 40px;
+}
+
+.header-page-title{
+    margin: auto;
+    position: relative;
+    top: 25%;
+}
+
+
+.login-header {
+    height: 300px;
+}
+
+/* 
+
+
+
+FEATURE SCALING 
+
+
+
+*/
+
+#feature {
+    height: 660px;
+    background-image: url("images/anxiety-feature-2.jpg");
+    background-size: cover;
+}
+
+#feature-menu-wrapper {
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+    height: 50px;
+    width: 200px;
+}
+
+#feature-menu-wrapper img {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#feature-menu-wrapper h4 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.1em;
+    position: relative;
+    top: -42px;
+    left: 60px;
+}
+
+
+#feature h1 {
+    background-color: rgba(31,31,31,0.8);
+
+    width: 450px;
+    height: auto;    
+
+    position: relative;
+    top: 250px;
+    display: block;
+    margin: 0 auto;
+
+    text-align: center;
+    color: #e2e2e2;
+    padding: 20px;
+}
+
+/* HOME BUTTONS STYLING */
+
+#home-buttons {
+    background-color: #555555 ;
+    height: 260px;
+    margin-top: -30px;
+}
+
+#home-blurb {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+
+    position: relative;
+    top: 30px;
+}
+
+#home-button-wrapper {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    height: 50px;
+
+    position: relative;
+    top: 60px;
+}
+
+#home-button-wrapper button {
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/*
+
+
+
+    ABOUT PAGE STYLING
+
+
+
+
+*/
+
+/* About header */
+
+#about-header {
+    background-color: blue;
+}
+
+/* About Column 1 */
+
+#about-column-one {
+    background-color: #f5f6fa;
+
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#about-column-one p {
+    padding: 15px;
+}
+
+#about-column-one h2 {
+    text-align: center;
+}
+
+#about-column-one img {
+    margin-left: 60px;
+    height: 150px;
+    width: 250px;
+}
+
+/* About Column 2 */
+
+#about-column-two {
+    background-color: #dcdde1;
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#about-column-two h2 {
+    text-align: center;
+}
+
+.question {
+    background-color: #2f3640;
+    color: #e2e2e2;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* height: 45px; */
+
+    text-align: center;
+}
+
+.question h5 {
+    display: inline-block;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin: 15px;
+}
+
+#panel_body  {
+    display: inline-block;
+}
+
+
+
+/* Symptoms Area */
+
+#symptoms-area {
+    background-color: #273c75;
+    color: white;
+}
+
+#symptoms-section-1 {
+    height: 800px;
+    width: 50%;
+    float: left;
+    
+    text-align: center;
+    background-color: #192a56;
+}
+
+#symptoms-section-1 p {
+    padding-top: 30px;
+}
+
+#symptoms-section-1 ul {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#symptoms-section-1 ul li {
+    font-size: 1.1em;
+    padding-top: 5px;
+}
+
+#symptoms-section-1 img { 
+    display: inline-block;
+}
+
+#symptoms-section-2 {
+    height: 600px;
+    width: 50%;
+    float: left;
+
+    text-align: center;
+    padding: 70px 0;
+    
+    background-color: #273c75;
+}
+
+#symptoms-section-2 p {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+#symptoms-section-2 ul {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+#solution-top-left {
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+#solution-top-right {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#solution-top-right img{
+    padding-left: 50px;
+}
+
+#solution-bottom-left img {
+    padding-left: 20px;
+    width: 650px;
+}
+
+.information {
+    font-style: italic;
+}
+
+#symptoms-section-3 {
+    height: 400px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
+    padding: 50px 0;
+
+    background-color: #40739e;
+}
+
+#symptoms-section-3 ul {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+#symptoms-section-4 {
+    height: 400px;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 50px 0;
+
+    background-color: #3a688d;
+}
+
+#symptoms-section-4 ul {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+#container_1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #f5f6fa;
+}
+
+#container_2 {
+    background-color: #273c75;
+}
+
+#container_3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: #f5f6fa;
+}
+
+.solution-article-triggers p {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+/* 
+
+
+DEVELOPER STYLING
+
+
+*/
+
+.developer-biography {
+    width: 33.33%;
+    display: block;
+    float: left;
+    text-align: center;
+    color: #e2e2e2;
+}
+
+.developer-biography img {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.developer-biography p {
+    padding-bottom: 30px;
+    font-size: 1.3em;
+}
+
+.developer-biography p span {
+    font-weight: bold;
+}
+
+
+/* bio-specific CSS */
+
+#first-bio {
+    background-color: #718093;
+}
+
+#second-bio {
+    background-color: #7f8fa6;
+}
+
+#third-bio {
+    background-color: #718093;
+}
+
+
+/* 
+
+
+SOLUTIONS CSS
+
+
+*/
+
+
+.solution-portion {
+    width: 50%;
+    height: 600px;
+    float: left; 
+}
+
+#solution-top-left {
+    background-color: #273c75;
+}
+
+#solution-bottom-right {
+    background-color: #273c75;
+}
+
+.solution-inner {
+    background-color: #718093;
+    height: 85%;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.solution-inner h2 {
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.solution-inner p {
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.solution-inner li{
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.solution-extra-information {
+    width: 100%;
+    height: 300px;
+    float: left;
+    background-color: #718093;
+    text-align: center;
+    color: #fff;
+}
+
+.solution-extra-information h2 {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.solution-extra-information p {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.solution-article-triggers {
+    width: 100%;
+    height: 430px;
+    float: left;
+    background-color: #40739e;
+    text-align: center;
+    color: #fff;
+}
+
+.solution-article-triggers ul {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* 
+
+
+FOOTER CSS
+
+
+*/
+
+footer {
+    height: 210px;
+    width: 100%;
+    background-color: #2f3640;
+    color: white;
+    margin-top: -20px;
+    float: left;
+}
+
+#footer-information {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#email {
+    margin-top: -2px;
+    color: #7f8fa6;
+}
+
+#footer-icons {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer-icons img {
+    display: inline-block;
+    
+    margin: 20px;
+}
+
+
+/* LISTS */
+ul {
+    text-align: left;
+    color: #fff;
+    
+}
+
+li{
+    margin: 10px 0;
+  }
+
+ #symptoms-section-3 li{
+    margin: 20px 0;
+  }
+  #symptoms-section-4 li{
+    margin: 20px 0;
+  }
+
+  /* 
+
+
+    LOGIN STYLING
+
+
+*/
+
+#login_div {
+    height: 250px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    box-shadow: 0 30px 40px rgba(0,0,0,.3);
+    
+}
+
+#login_form {
+    height: 80%;
+    width:100%;
+    background-color: white;
+}
+
+#login_form input {
+    position: relative;
+    left: 30px;
+    top: 35px;
+
+    height: 35px;
+    width: 85%;
+    border: none;
+
+    text-align: center;
+
+    background-color: #F8F8F8;
+    border: 3px solid #F0F0F0;
+    border-radius: 15px;
+}
+
+#submit_btn {
+    position: relative;
+    top: 60px;
+    left: 38%;
+
+    background-color: #247BA0;
+    border: 3px solid white;
+    border-radius: 15px;
+
+    color: white;
+    font-size: 18px;
+
+    padding: 10px 20px;
+}
+
+#loginError {
+    text-align: center;
+    padding-top: 20px;
+    color: red;
+    margin-bottom: 0;
+}
+
+#container_login {
+    background: white;
+}
+
+#login_header {
+    width: 100%;
+    height: 200px;
+    background-image: url("images/header-banner.png");
+    background-position: center;
+}

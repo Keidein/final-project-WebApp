@@ -1,12 +1,8 @@
 // Modules.
-import React, { Component } from "react";
+import React from "react";
 
-// Components.
-import Toolbar from "./Toolbar";
-import SideDrawer from "../Javascript/SideDrawer/SideDrawer";
-import Backdrop from "../Javascript/SideDrawer/Backdrop";
+export default class Nav extends React.Component {
 
-class SideToolbar extends Component {
     // NAVIGATION
     state = {
         sideDrawerOpen: false
@@ -32,17 +28,10 @@ class SideToolbar extends Component {
 
         return (
             <div style={{height: '100%'}}>
-                {/* Nav */}
                 <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
                 {sideDrawer}
                 {backdrop}
-
-                {/* Content */}
-                <main style={{marginTop: '64px'}}>
-                </main>
             </div>
         )
     }
 }
-
-export default SideToolbar;

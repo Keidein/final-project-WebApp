@@ -23,15 +23,14 @@ class PanelThree extends React.Component {
 
     render() {
         return (
-            <main style={{marginTop: '64px'}}>
+            <main>
                 <div className="panels_container">
                     <div className="panels">
                         <div className="panel" id="panel-three">
-                            <div className="panel_heading">
+                            <div className="panel_body">
                                 <h5> What are some common treatments? </h5>
-                            </div>
-                            <div className="panel_body" id="a-three">
-                                <button onClick={(event) => { this.toggleDiv(); this.clicked();}}> 
+                                <button style={{position: 'relative', marginLeft: '10px', fontSize: '18px', fontWeight: 'bold'}}
+                                onClick={(event) => { this.toggleDiv(); this.clicked();}}> 
                                     {this.state.clicked? '+' : '-'}
                                 </button>
                                     { this.state.show && <Body />}
@@ -47,7 +46,7 @@ class PanelThree extends React.Component {
 class Body extends React.Component{
     render(){
         return(
-            <div>
+            <div style={{paddingBottom: '20px'}}>
                 <ul>
                     <li>Psychotherapy</li>
                     <li>Cognitive Behavioral Therapy (CBT)</li>

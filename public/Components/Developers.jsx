@@ -9,35 +9,28 @@ export default class Developers extends React.Component {
 
     render() {
         return(
-            <contianer>
+            <div className="container">
                 <header>
-                    <img src="https://via.placeholder.com/35" /> 
-                    <h4 class="header-menu-title"> ANXIETYNZ </h4>
-                    <h1 class="header-page-title"> Meet our Team </h1>
+                    <h1 className="header-page-title"> Meet our team! </h1>
                 </header>
 
-                <h2>Developers</h2>
-                <div id="first-bio" class="developer-biography">
-                    <img src="https://via.placeholder.com/250" />
-                    <h3>Dylan Etheridge</h3>
+
+                <div id="first-bio" className="developer-biography">
+                    <img src="Style/images/eagle-1.jpg" height="335" width="300"/>
+                    <h2>Dylan Etheridge</h2>
+                    <p>Web Developer</p>
                 </div>
-
-                <br/>
-
-                <div id="second-bio" class="developer-biography">
-                    <img src="https://via.placeholder.com/250" />
-                    <h3>Ethan Meleah</h3>
+                <div id="second-bio" className="developer-biography">
+                    <img src="Style/images/eagle-2.jpg" height="335" width="300"/>
+                    <h2>Ethan Meleah</h2>
+                    <p>User Interface Designer</p>
                 </div>
-
-                <br/>
-
-                <div id="third-bio" class="developer-biography">
-                    <img src="https://via.placeholder.com/250" />
-                    <h3>Retha van der Walt</h3>
+                <div id="third-bio" className="developer-biography">
+                    <img src="Style/images/eagle-3.jpg" height="335" width="300"/>
+                    <h2>Retha van der Walt</h2>
+                    <p>Project Manager</p>
                 </div>
-
-                <br/>
-            </contianer>
+            </div>
         )
     }
 }
